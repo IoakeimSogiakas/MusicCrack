@@ -1,6 +1,6 @@
-import os
 import re
 import shutil
+import os
 
 def move_files(source_folder, destination_folder):
     pattern = r"^score_\d+\.svg$"
